@@ -9,7 +9,7 @@
 .about-info h2 {
     font-family: CyberFont;
     letter-spacing: 6px;
-    color: #02d7f2;
+    color: var(--cyberpunk-cyan);
 }
 
 .pizza-example {

@@ -9,12 +9,16 @@
 
 :root {
     --background-theme: rgb(26, 24, 24);
-    --text-theme: #f2e900;
+    --cyberpunk-yellow: #f2e900;
+    --cyberpunk-cyan: #02d7f2;
+    --cyberpunk-red: #ff1111;
+    --button-size: 150px;
+    --gap-size: 1rem;
 }
 
 body {
     background-color: var(--background-theme);
-    color: var(--text-theme);
+    color: var(--cyberpunk-yellow);
     min-height: 100vh;
     height: auto;
     padding: 1rem 3rem 1rem 3rem;
@@ -23,8 +27,57 @@ body {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 1fr calc(var(--button-size) * 3 + 2 * var(--gap-size)) 1fr;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: var(--gap-size);
     font-family: CyberFont;
-    height: 100px;
     font-size: 40px;
     letter-spacing: 4px;
+}
+
+header .buttons {
+    display: flex;
+    justify-self: center;
+    gap: var(--gap-size);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .buttons button {
+    background-color: var(--cyberpunk-red);
+    width: var(--button-size);
+    border: 0;
+    border-radius: 6px;
+    transition: all 0.1s ease-in-out;
+}
+
+header .buttons button:hover {
+    transform: scale(1.05);
+    filter: brightness(150%);
+}
+
+header .buttons .selected {
+    transform: scale(1.05);
+    background-color: var(--cyberpunk-cyan);
+}
+
+@media (max-width: 800px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    header .buttons {
+        justify-self: start;
+        width: 100%;
+        gap: 1rem;
+        grid-column-start: 1;
+        flex-direction: column;
+    }
+
+    header .buttons button {
+        width: 100%;
+    }
 }
