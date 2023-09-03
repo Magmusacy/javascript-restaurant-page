@@ -38,6 +38,7 @@ function createDish(name, priceInt, imageSrc, ingredients) {
 
 function menuPage() {
     const content = document.querySelector('#content');
+    content.classList.add('menu-page');
     const dish1 = createDish('Piergi Pizza', 5, PierogiPizza, 'Pizza dough, mashed potatoes, cheddar cheese, bacon bits, sautéed onions, sour cream, fresh chives, salt, pepper.');
     const dish2 = createDish('Cheese Pizza', 7, CheesePizza, 'Pizza dough, tomato sauce, olive oil, dried oregano, dried basil, salt, pepper, mozzarella cheese, Parmesan cheese, fresh basil leaves.');
     const dish3 = createDish('Arugula Pizza', 4, ArugulaPizza, 'Pizza dough, olive oil, garlic, mozzarella cheese, Parmesan cheese, fresh arugula, balsamic vinegar, salt, and pepper');
@@ -50,4 +51,4 @@ function menuPage() {
     content.appendChild(dish4);
 };
 
-export default menuPage();
+export default menuPage;

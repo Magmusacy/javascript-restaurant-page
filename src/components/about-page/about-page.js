@@ -3,6 +3,7 @@ import PizzaPicture from './cyber-pizza-example.jpg'
 
 function component() {
     const content = document.querySelector('#content');
+    content.classList.add('about-page');
     const aboutDiv = document.createElement('div');
     aboutDiv.classList.add('about-info')
     

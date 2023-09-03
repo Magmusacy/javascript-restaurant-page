@@ -1,4 +1,4 @@
-#content {
+.about-page {
     margin: auto 0;
     display: grid;
     justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 @media (max-width: 800px) {
-    #content {
+    .about-page {
         grid-template-columns: 1fr;
     }
 
