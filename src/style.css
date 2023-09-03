@@ -9,6 +9,7 @@
 
 :root {
     --background-theme: rgb(26, 24, 24);
+    --dish-card-color: rgb(32, 31, 31);
     --cyberpunk-yellow: #f2e900;
     --cyberpunk-cyan: #02d7f2;
     --cyberpunk-red: #ff1111;

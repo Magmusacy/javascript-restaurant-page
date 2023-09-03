@@ -1,0 +1,40 @@
+#content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.dish-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dish-card-color);
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.dish-card .card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cyberpunk-cyan);
+}
+
+.dish-card .card-heading h2 {
+    font-family: CyberFont;
+    letter-spacing: 4px;
+}
+
+.dish-card .card-heading span {
+    font-size: 2rem;
+}
+
+.dish-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.dish-card p {
+    margin: 0;
+}
