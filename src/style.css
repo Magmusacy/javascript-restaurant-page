@@ -58,6 +58,7 @@ header .buttons button {
 header .buttons button:hover {
     transform: scale(1.05);
     filter: brightness(150%);
+    cursor: pointer;
 }
 
 header .buttons .selected {
