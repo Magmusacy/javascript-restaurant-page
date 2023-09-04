@@ -52,7 +52,6 @@ header .buttons button {
     width: var(--button-size);
     border: 0;
     border-radius: 6px;
-    transition: all 0.1s ease-in-out;
 }
 
 header .buttons button:hover {
