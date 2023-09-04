@@ -1,5 +1,6 @@
 import aboutPage from './components/about-page/about-page.js';
 import menuPage from './components/menu-page/menu-page.js';
+import contactPage from './components/contact-page/contact-page.js';
 import './normalize.css'
 import './style.css'
 
@@ -16,14 +17,23 @@ const restartState = () => {
     }
 };
 
-aboutButton.addEventListener('click', () => {
+const buttonBehaviour = (componentFunction, button) => {
     restartState();
-    aboutButton.classList.add('selected');
-    aboutPage();
+    button.classList.add('selected');
+    componentFunction();
+}; 
+
+aboutButton.addEventListener('click', () => {
+    buttonBehaviour(aboutPage, aboutButton);
 });
 
 menuButton.addEventListener('click', () => {
-    restartState();
-    menuButton.classList.add('selected');
-    menuPage();
+    buttonBehaviour(menuPage, menuButton);
 });
+
+contactButton.addEventListener('click', () => {
+    buttonBehaviour(contactPage, contactButton);
+});
+
+// About page is open by default
+buttonBehaviour(aboutPage, aboutButton);

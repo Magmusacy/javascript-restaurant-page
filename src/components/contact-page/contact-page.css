@@ -1,0 +1,15 @@
+.contact-page h2:first-of-type {
+    font-family: CyberFont;
+    letter-spacing: 6px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.contact-page li {
+    list-style-type: none;
+}
+
+.weekend {
+    color: var(--cyberpunk-cyan);
+}
