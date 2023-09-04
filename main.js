@@ -216,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
   \***********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f2d47d78833d0c06e370.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/about-page/cyber-pizza-example.jpg?");
+eval("module.exports = __webpack_require__.p + \"83290dee51a476988082.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/about-page/cyber-pizza-example.jpg?");
 
 /***/ }),
 
@@ -226,7 +226,7 @@ eval("module.exports = __webpack_require__.p + \"f2d47d78833d0c06e370.jpg\";\n\n
   \****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8f56b4fd1a3b00ba8e87.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/arugula-pizza.jpg?");
+eval("module.exports = __webpack_require__.p + \"1bd5d6d8d3f4ac1f8782.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/arugula-pizza.jpg?");
 
 /***/ }),
 
@@ -236,7 +236,7 @@ eval("module.exports = __webpack_require__.p + \"8f56b4fd1a3b00ba8e87.jpg\";\n\n
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"15fc355a890529ae31f3.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/cheese-pizza.jpg?");
+eval("module.exports = __webpack_require__.p + \"0ca48156fee90f0eb8a2.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/cheese-pizza.jpg?");
 
 /***/ }),
 
@@ -246,7 +246,7 @@ eval("module.exports = __webpack_require__.p + \"15fc355a890529ae31f3.jpg\";\n\n
   \****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7e75bb6e2789e5f41dda.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/pierogi-pizza.jpg?");
+eval("module.exports = __webpack_require__.p + \"e4bfe17b2644c63ce6f2.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/pierogi-pizza.jpg?");
 
 /***/ }),
 
@@ -256,7 +256,7 @@ eval("module.exports = __webpack_require__.p + \"7e75bb6e2789e5f41dda.jpg\";\n\n
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"095ac6ca0cdc8eb3ddd7.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/salami-pizza.jpg?");
+eval("module.exports = __webpack_require__.p + \"c0ed8ca9b7e412ec90d5.jpg\";\n\n//# sourceURL=webpack://javascript-restaurant-page/./src/components/menu-page/salami-pizza.jpg?");
 
 /***/ }),
 
