@@ -1,7 +1,7 @@
 import './about-page.css';
 import PizzaPicture from './cyber-pizza-example.jpg'
 
-function component() {
+function aboutPage() {
     const content = document.querySelector('#content');
     content.classList.add('about-page');
     const aboutDiv = document.createElement('div');
@@ -55,4 +55,4 @@ function component() {
     content.appendChild(pizzaExampleDiv);
 }
 
-export default component;
+export default aboutPage;
